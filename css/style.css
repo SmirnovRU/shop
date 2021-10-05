@@ -4,6 +4,10 @@
   --dark-pink: #f16d7f;
 }
 
+body {
+  font-family: Lato;
+}
+
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -79,4 +83,61 @@
 
 .person__pink {
   color: var(--dark-pink);
+}
+
+/* sale */
+
+.sale {
+  margin: 63px 0 0 0;
+}
+
+.sale__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sale__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  width: 360px;
+  height: 260px;
+  text-decoration: none;
+}
+
+.women {
+  background-image: url(../img/sale_woman.jpg);
+}
+
+.men {
+  background-image: url(../img/sale_men.jpg);
+}
+
+.kids {
+  background-image: url(../img/sale_kids.jpg);
+}
+
+.accesories {
+  margin: 30px 0 0 0;
+  width: 100%;
+  height: 180px;
+  background-image: url(../img/sale_accesories.jpg);
+}
+
+.sale__text {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.sale__subtitle {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+  color: var(--dark-pink);
+  text-transform: uppercase;
 }
