@@ -1,3 +1,40 @@
-* {
-  color: red;
+:root {
+  --black: #222222;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: var(--black);
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 75px;
+}
+
+.header__menu {
+  display: none;
+}
+
+.header__logo {
+  padding: 0 40px 0 0;
+}
+
+.header__search {
+  background: transparent;
+}
+
+.header__button {
+  background: transparent;
+}
+
+.header__profile {
+  padding: 0 32px 0 32px;
+}
 }

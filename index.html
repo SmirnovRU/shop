@@ -9,76 +9,82 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <img src="img/logo.svg" alt="logo">
-        <button type="button"><img src="img/loope.svg" alt="loope"></button>
-        <button type="button"><img src="img/button.svg" alt="button"></button>
-        <a href="#"><img src="img/profile.svg" alt="profile"></a>
-        <a href="#"><img src="img/basket.svg" alt="basket"></a>
-        <nav>
-            <h2>menu</h2>
-            <ul>
-                <li>
-                    <h3>man</h3>
-                    <ul>
-                        <li>Accessories</li>
-                        <li>Bags</li>
-                        <li>Denim</li>
-                        <li>T-Shirts</li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>woman</h3>
-                    <ul>
-                        <li>Accessories</li>
-                        <li>Jackets & Coats</li>
-                        <li>Polos</li>
-                        <li>T-Shirts</li>
-                        <li>Shirts</li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>kids</h3>
-                    <ul>
-                        <li>Accessories</li>
-                        <li>Jackets & Coats</li>
-                        <li>Polos</li>
-                        <li>T-Shirts</li>
-                        <li>Shirts</li>
-                        <li>Bags</li>
-                    </ul>
-                </li>
-            </ul>
-            <button type="button"><img src="img/cross.svg" alt="cross"></button>   
-        </nav>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__box">
+                <img class="header__logo" src="img/logo.svg" alt="logo" width="44" height="38">
+                <button class="header__search" type="button"><img src="img/loope.svg" alt="loope" width="26" height="28"></button>
+            </div>
+            <div class="header__box">
+                <button class="header__button" type="button"><img src="img/button.svg" alt="button"width="32" height="23"></button>
+                <a class="header__profile" href="#"><img src="img/profile.svg" alt="profile" width="29" height="29"></a>
+                <a class="header__basket" href="#"><img src="img/basket.svg" alt="basket" width="29" height="29"></a>
+            </div>
+            <nav class="header__menu">
+                <h2 class="header__title">menu</h2>
+                <ul class="header__menu-list">
+                    <li class="header__menu-item menu-sub-item">
+                        <h3 class="menu-sub-item__title">man</h3>
+                        <ul class="menu-sub-item__list">
+                            <li class="menu-sub-item__item">Accessories</li>
+                            <li class="menu-sub-item__item">Bags</li>
+                            <li class="menu-sub-item__item">Denim</li>
+                            <li class="menu-sub-item__item">T-Shirts</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="menu-sub-item__title">woman</h3>
+                        <ul class="menu-sub-item__list">
+                            <li class="menu-sub-item__item">Accessories</li>
+                            <li class="menu-sub-item__item">Jackets & Coats</li>
+                            <li class="menu-sub-item__item">Polos</li>
+                            <li class="menu-sub-item__item">T-Shirts</li>
+                            <li class="menu-sub-item__item">Shirts</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="menu-sub-item__title">kids</h3>
+                        <ul class="menu-sub-item__list">
+                            <li class="menu-sub-item__item">Accessories</li>
+                            <li class="menu-sub-item__item">Jackets & Coats</li>
+                            <li class="menu-sub-item__item">Polos</li>
+                            <li class="menu-sub-item__item">T-Shirts</li>
+                            <li class="menu-sub-item__item">Shirts</li>
+                            <li class="menu-sub-item__item">Bags</li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="header__menu-button" type="button"><img src="img/cross.svg" alt="cross"></button>   
+            </nav>
+        </div>
     </header>
     <main>
-        <section>
-            <img src="img/person.jpg" alt="person">
-            <h1>the brand of luxerious fashion</h1>
+        <section class="person">
+            <img class="person__img" src="img/person.jpg" alt="person">
+            <h1 class="person__title">the brand of luxerious fashion</h1>
         </section>
-        <section>
-            <h2>sale</h2>
-            <ul>
-                <li>
-                    <a href="#">
+        <section class="sale">
+            <h2 class="sale__title">sale</h2>
+            <ul class="sale__list">
+                <li class="sale__item">
+                    <a class="sale__link" href="#">
                         <p>30% off</p>
                         <h3>for women</h3>
                     </a>
                 </li>
-                <li>
+                <li class="sale__item">
                     <a href="#">
                         <p>hot deal</p>
                         <h3>for men</h3>
                     </a>
                 </li>
-                <li>
+                <li class="sale__item">
                     <a href="#">
                         <p>new arrivals</p>
                         <h3>for kids</h3>
                     </a>
                 </li>
-                <li>
+                <li class="sale__item">
                     <a href="#">
                         <p>luxirous & trendy</p>
                         <h3>accesories</h3>
