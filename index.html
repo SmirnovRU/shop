@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -60,37 +63,41 @@
     </header>
     <main>
         <section class="person">
-            <img class="person__img" src="img/person.jpg" alt="person">
-            <h1 class="person__title">the brand of luxerious fashion</h1>
+            <img class="person__img" src="img/person.jpg" alt="person" width="800" height="765">
+            <div class="person__wrp">
+                <h1 class="person__title">the brand <span class="person__subtitle">of luxerious <span class="person__pink">fashion</span></span></h1>
+            </div>
         </section>
         <section class="sale">
-            <h2 class="sale__title">sale</h2>
-            <ul class="sale__list">
-                <li class="sale__item">
-                    <a class="sale__link" href="#">
-                        <p>30% off</p>
-                        <h3>for women</h3>
-                    </a>
-                </li>
-                <li class="sale__item">
-                    <a href="#">
-                        <p>hot deal</p>
-                        <h3>for men</h3>
-                    </a>
-                </li>
-                <li class="sale__item">
-                    <a href="#">
-                        <p>new arrivals</p>
-                        <h3>for kids</h3>
-                    </a>
-                </li>
-                <li class="sale__item">
-                    <a href="#">
-                        <p>luxirous & trendy</p>
-                        <h3>accesories</h3>
-                    </a>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="sale__title visually-hidden">sale</h2>
+                <ul class="sale__list">
+                    <li class="sale__item">
+                        <a class="sale__link" href="#">
+                            <p class="sale__text">30% off</p>
+                            <h3 class="sale__subtitle">for women</h3>
+                        </a>
+                    </li>
+                    <li class="sale__item">
+                        <a href="#">
+                            <p class="sale__text">hot deal</p>
+                            <h3 class="sale__subtitle">for men</h3>
+                        </a>
+                    </li>
+                    <li class="sale__item">
+                        <a href="#">
+                            <p class="sale__text">new arrivals</p>
+                            <h3 class="sale__subtitle">for kids</h3>
+                        </a>
+                    </li>
+                    <li class="sale__item">
+                        <a href="#">
+                            <p class="sale__text">luxirous & trendy</p>
+                            <h3 class="sale__subtitle">accesories</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section>
             <h2>Fetured Items</h2>
