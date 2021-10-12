@@ -572,6 +572,7 @@ body {
 .footer-copy__icon:active {
   fill: var(--white);
   color: var(--dark-pink);
+}
 
 /* registration */
 
@@ -639,7 +640,7 @@ body {
   color: var(--slate-gray);
 }
 
-.radio-display {
+.registration-input__radio-display {
   display: none;
 }
 
@@ -668,6 +669,19 @@ body {
 
 .registration-input__button:hover .registration-input__button-text {
   color: var(--dark-pink);
+}
+
+.registration-input__button:active {
+  background-color: var(--gray);
+  outline: 1px solid var(--silver);
+}
+
+.registration-input__button:active .registration-input__button-text {
+  color: var(--silver);
+}
+
+.registration-input__button:active .registration-input__button-img {
+  fill: var(--silver);
 }
 
 .registration-input__button-text {
