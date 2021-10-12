@@ -94,6 +94,10 @@ body {
   fill: var(--silver);
 }
 
+.header__icon:active {
+  fill: var(--snow);
+}
+
 .header__logo {
   padding: 0 41px 0 0;
 }
@@ -111,6 +115,7 @@ body {
   width: 232px;
   height: 765px;
   box-shadow: 20px var(--silver);
+  z-index: 2;
 }
 
 .header__dropdown:hover .header__icon {
@@ -120,6 +125,11 @@ body {
 .menu-sub-item__item:hover {
   background-color: var(--gray);
   color: var(--white);
+}
+
+.menu-sub-item__item:active {
+  background-color: var(--gray);
+  color: var(--night);
 }
 
 .header__search {
@@ -319,7 +329,19 @@ body {
   align-items: center;
   background-color: transparent;
   border: 1px solid var(--white);
-  padding-inline-end: 14px;
+  padding: 14px;
+}
+
+.fetured-items__dropbox-button:hover {
+  background-color: var(--slate-gray);
+}
+
+.fetured-items__dropbox-button:active {
+  border: 3px solid var(--ghost-white);
+}
+
+.fetured-items__dropbox-button:active .fetured-items__dropbox-title {
+  font-weight: 700;
 }
 
 .fetured-items__dropbox-title {
@@ -356,6 +378,12 @@ body {
   border: 1px solid var(--white);
   background-color: var(--light-pink);
   cursor: pointer;
+}
+
+.fetured-items__button:active {
+  color: var(--dark-gray);
+  border: 1px solid var(--dark-grey);
+  background-color: var(--slate-gray);
 }
 
 /* products */
@@ -500,6 +528,13 @@ body {
   cursor: pointer;
 }
 
+.footer-info__button:active {
+  color: var(--dark-gray);
+  border: 1px solid var(--dark-grey);
+  background-color: var(--slate-gray);
+  outline: none;
+}
+
 /* footer-copy */
 
 .footer-copy {
@@ -526,11 +561,17 @@ body {
 
 .footer-copy__icon {
   fill: var(--white);
+  color: var(--black);
 }
 
 .footer-copy__icon:hover {
   fill: var(--dark-pink);
+  color: var(--white);
 }
+
+.footer-copy__icon:active {
+  fill: var(--white);
+  color: var(--dark-pink);
 
 /* registration */
 
@@ -564,7 +605,7 @@ body {
   height: 45px;
   margin: 21px 0 0 0;
   padding: 0 0 0 17px;
-  background-color: var(--Lavender);
+  background-color: var(--lavender);
   border: 1px solid var(--dark-grey);
 }
 
