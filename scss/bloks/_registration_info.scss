@@ -1,0 +1,32 @@
+.registration-info {
+  padding: 33px 0 0 128px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: $night;
+
+  .registration-info__title {
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .registration-info__text {
+    padding: 22px 0;
+  }
+
+  .registration-info__item {
+    padding: 0 0 16px 43px;
+    position: relative;
+
+    .registration-info__item::before {
+      position: absolute;
+      top: 7px;
+      left: 0px;
+      width: 20px;
+      height: 16px;
+      content: "";
+      background-image: url(../img/registration_check_mark.svg);
+      background-size: 20px 16px;
+    }
+  }
+}

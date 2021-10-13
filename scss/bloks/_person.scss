@@ -1,0 +1,30 @@
+.person {
+  display: flex;
+
+  .person__wrp {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: $pink;
+  }
+
+  .person__title {
+    padding: 0 0 0 92px;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .person__subtitle {
+    display: block;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .person__pink {
+    color: $dark-pink;
+  }
+}
