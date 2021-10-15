@@ -32,23 +32,23 @@
     color: $dark-pink;
     text-transform: uppercase;
   }
-}
 
-.women {
-  background-image: url(../img/sale_woman.jpg);
-}
+  .sale__link-women {
+    background-image: url(../img/sale_woman.jpg);
+  }
 
-.men {
-  background-image: url(../img/sale_men.jpg);
-}
+  .sale__link-men {
+    background-image: url(../img/sale_men.jpg);
+  }
 
-.kids {
-  background-image: url(../img/sale_kids.jpg);
-}
+  .sale__link-kids {
+    background-image: url(../img/sale_kids.jpg);
+  }
 
-.accesories {
-  margin: 30px 0 0 0;
-  min-width: 100%;
-  max-height: 180px;
-  background-image: url(../img/sale_accesories.jpg);
+  .sale__link-accesories {
+    margin: 30px 0 0 0;
+    min-width: 100%;
+    max-height: 180px;
+    background-image: url(../img/sale_accesories.jpg);
+  }
 }

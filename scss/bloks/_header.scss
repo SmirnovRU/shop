@@ -24,6 +24,18 @@
     background-color: $white;
   }
 
+  .header__menu-icon {
+    fill: $silver;
+  }
+
+  .header__menu-button:active .header__menu-icon {
+    fill: $slate-gray;
+  }
+
+  .header__menu-icon:hover {
+    fill: $night;
+  }
+
   .header__menu-button {
     padding: 16px 0 0 203px;
     background-color: transparent;
@@ -88,27 +100,4 @@
   .header__profile {
     padding: 0 33px 0 33px;
   }
-}
-
-.menu-sub-item__title {
-  padding: 20px 0 6px 33px;
-  text-transform: uppercase;
-  @include font(14px, 17px, 400);
-  color: $dark-pink;
-}
-
-.menu-sub-item__item {
-  padding: 6px 0 6px 55px;
-  color: $silver;
-}
-
-.menu-sub-item__item:hover {
-  background-color: $gray;
-  color: $white;
-  cursor: pointer;
-}
-
-.menu-sub-item__item:active {
-  background-color: $gray;
-  color: $night;
 }
