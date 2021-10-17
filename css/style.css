@@ -936,7 +936,7 @@ body {
 }
 
 .registrarion-input .registration-input__input {
-  width: 360px;
+  width: 94%;
   height: 45px;
   margin: 21px 0 0 0;
   padding: 0 0 0 17px;
@@ -1044,12 +1044,41 @@ body {
   background-color: #ffffff;
 }
 
+@media (max-width: 1024px) {
+  .registrarion-input .registration-input__radio-display {
+    display: inline;
+  }
+}
+
+@media (max-width: 667px) {
+  .registrarion-input .registration-input__form {
+    width: 100%;
+  }
+  .registrarion-input .registration-input__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .registrarion-input .registration-input__button {
+    margin: 0 0 7px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .registrarion-input {
+    background-color: #e5e5e5;
+    padding: 7px 0 0 0;
+  }
+}
+
 .registration-info {
   padding: 33px 0 0 128px;
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
   color: #000000;
+  width: 55%;
 }
 
 .registration-info .registration-info__title {
@@ -1075,5 +1104,41 @@ body {
   content: "";
   background-image: url(../img/registration_check_mark.svg);
   background-size: 20px 16px;
+}
+
+@media (max-width: 1024px) {
+  .registration-info .registration-info {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .registration-info .registration-info__text {
+    padding: 32px 0 22px 0;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .registration-info .registration-info__item {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@media (max-width: 667px) {
+  .registration-info .registration-info__list {
+    padding: 0 0 100px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .registration-info .registration-info {
+    padding: 33px 0 0 22px;
+    width: 50%;
+  }
+}
+
+@media (max-width: 667px) {
+  .registration-info {
+    padding: 33px 0 0 0;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
