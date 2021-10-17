@@ -34,4 +34,32 @@
     color: $light-gray;
     text-align: center;
   }
+
+  @media (max-width: 1024px) {
+    .products__list {
+      flex-direction: column;
+    }
+
+    .products__img {
+      padding: 48px 0 0 0;
+    }
+
+    .products__text {
+      padding: 16px 0 0 0;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .products {
+    margin: 65px 0 0 0;
+    padding: 0 0 64px 0;
+  }
+}
+
+@media (max-width: 667px) {
+  .products {
+    margin: 97px 0 0 0;
+    padding: 0 0 81px 0;
+  }
 }

@@ -11,6 +11,18 @@ body {
 }
 
 .container {
-  width: 1140px;
+  width: 71.25%;
   margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 95.8%;
+  }
+}
+
+@media (max-width: 667px) {
+  .container {
+    width: 91.5%;
+  }
 }

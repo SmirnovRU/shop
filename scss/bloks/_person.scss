@@ -27,4 +27,48 @@
   .person__pink {
     color: $dark-pink;
   }
+
+  .person__img {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  @media (max-width: 1024px) {
+    .person__title {
+      font-size: 44px;
+      line-height: 53px;
+      padding: 0 0 0 67px;
+    }
+
+    .person__subtitle {
+      font-size: 24px;
+      line-height: 29px;
+    }
+  }
+
+  @media (max-width: 667px) {
+    .person__title {
+      font-size: 38px;
+      line-height: 46px;
+      padding: 0;
+    }
+
+    .person__subtitle {
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    .person__img {
+      display: none;
+    }
+    .person__wrp {
+      justify-content: center;
+    }
+  }
+}
+@media (max-width: 667px) {
+  .person {
+    height: 363px;
+  }
 }

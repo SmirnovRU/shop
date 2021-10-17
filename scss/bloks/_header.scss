@@ -100,4 +100,24 @@
   .header__profile {
     padding: 0 33px 0 33px;
   }
+
+  @media (max-width: 1024px) {
+    .header__logo {
+      padding: 0 41px 0 16px;
+    }
+
+    .header__basket {
+      padding: 0 16px 0 0;
+    }
+  }
+
+  @media (max-width: 667px) {
+    .header__basket {
+      display: none;
+    }
+
+    .header__profile {
+      display: none;
+    }
+  }
 }

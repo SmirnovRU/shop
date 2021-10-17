@@ -39,4 +39,28 @@
     fill: $white;
     color: $dark-pink;
   }
+
+  @media (max-width: 1024px) {
+    .footer-copy__list {
+      padding: 24px 16px 0 0;
+    }
+
+    .footer-copy__text {
+      padding: 15px 0 0 16px;
+    }
+  }
+
+  @media (max-width: 667px) {
+    .footer-copy__container {
+      flex-direction: column-reverse;
+    }
+
+    .footer-copy__list {
+      padding: 43px 0 0 0;
+    }
+
+    .footer-copy__text {
+      padding: 40px 0 9px 0;
+    }
+  }
 }
