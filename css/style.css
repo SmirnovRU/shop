@@ -1,3 +1,38 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato-light.woff2") format("woff2"), url("../fonts/lato-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato-regular.woff2") format("woff2"), url("../fonts/lato-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato-italic.woff2") format("woff2"), url("../fonts/lato-italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato-bold.woff2") format("woff2"), url("../fonts/lato-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato-black.woff2") format("woff2"), url("../fonts/lato-black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
 body {
   font-family: Lato;
 }
@@ -87,6 +122,8 @@ body {
 
 .header .header__icon {
   fill: #e8e8e8;
+  -webkit-transition: fill 0.2s linear;
+  transition: fill 0.2s linear;
 }
 
 .header .header__icon:hover {
@@ -312,6 +349,7 @@ body {
   text-decoration: none;
   margin: 30px 0 0 0;
   background-size: cover;
+  text-align: center;
 }
 
 .sale .sale__text {
@@ -328,6 +366,10 @@ body {
   font-weight: 700;
   color: #f16d7f;
   text-transform: uppercase;
+}
+
+.sale .sale__link {
+  text-decoration: none;
 }
 
 .sale .sale__link-women {
@@ -920,12 +962,12 @@ body {
   text-transform: uppercase;
 }
 
-.registrarion-input {
+.registration-input {
   background-color: #e5e5e5;
   padding: 31px 0 0 0;
 }
 
-.registrarion-input .registration-input__box {
+.registration-input .registration-input__box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -935,7 +977,7 @@ body {
           flex-direction: column;
 }
 
-.registrarion-input .registration-input__input {
+.registration-input .registration-input__input {
   width: 94%;
   height: 45px;
   margin: 21px 0 0 0;
@@ -944,7 +986,7 @@ body {
   border: 1px solid #a4a4a4;
 }
 
-.registrarion-input .registration-input__subtitle {
+.registration-input .registration-input__subtitle {
   padding: 33px 0 0 0;
   font-weight: 300;
   font-size: 16px;
@@ -952,12 +994,12 @@ body {
   color: #222222;
 }
 
-.registrarion-input .registration-input__radio-button {
+.registration-input .registration-input__radio-button {
   margin: 31px 10px 0 0;
   background-color: #e5e5e5;
 }
 
-.registrarion-input .registration-input__radio-label {
+.registration-input .registration-input__radio-label {
   padding: 0 20px 0 0;
   font-size: 11px;
   font-weight: 300;
@@ -965,7 +1007,7 @@ body {
   color: #000000;
 }
 
-.registrarion-input .registration-input__text {
+.registration-input .registration-input__text {
   max-width: 360px;
   padding: 16px 0 39px 0;
   font-weight: 300;
@@ -974,11 +1016,11 @@ body {
   color: #b1b1b1;
 }
 
-.registrarion-input .registration-input__radio-display {
+.registration-input .registration-input__radio-display {
   display: none;
 }
 
-.registrarion-input .registration-input__button {
+.registration-input .registration-input__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -994,37 +1036,37 @@ body {
   margin: 0 0 96px 0;
 }
 
-.registrarion-input .registration-input__button-img {
+.registration-input .registration-input__button-img {
   fill: #ffffff;
 }
 
-.registrarion-input .registration-input__button:hover {
+.registration-input .registration-input__button:hover {
   background-color: #ffffff;
   outline: 1px solid #f16d7f;
 }
 
-.registrarion-input .registration-input__button:hover .registration-input__button-img {
+.registration-input .registration-input__button:hover .registration-input__button-img {
   fill: #f16d7f;
 }
 
-.registrarion-input .registration-input__button:hover .registration-input__button-text {
+.registration-input .registration-input__button:hover .registration-input__button-text {
   color: #f16d7f;
 }
 
-.registrarion-input .registration-input__button:active {
+.registration-input .registration-input__button:active {
   background-color: #9f9f9f;
   outline: 1px solid #6f6e6e;
 }
 
-.registrarion-input .registration-input__button:active .registration-input__button-text {
+.registration-input .registration-input__button:active .registration-input__button-text {
   color: #6f6e6e;
 }
 
-.registrarion-input .registration-input__button:active .registration-input__button-img {
+.registration-input .registration-input__button:active .registration-input__button-img {
   fill: #6f6e6e;
 }
 
-.registrarion-input .registration-input__button-text {
+.registration-input .registration-input__button-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -1033,40 +1075,40 @@ body {
   padding: 0 20px 0 0;
 }
 
-.registrarion-input .registration-input__container {
+.registration-input .registration-input__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.registrarion-input .registration-input__input:focus {
+.registration-input .registration-input__input:focus {
   outline: 1px solid #f16d7f;
   background-color: #ffffff;
 }
 
 @media (max-width: 1024px) {
-  .registrarion-input .registration-input__radio-display {
+  .registration-input .registration-input__radio-display {
     display: inline;
   }
 }
 
 @media (max-width: 667px) {
-  .registrarion-input .registration-input__form {
+  .registration-input .registration-input__form {
     width: 100%;
   }
-  .registrarion-input .registration-input__container {
+  .registration-input .registration-input__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .registrarion-input .registration-input__button {
+  .registration-input .registration-input__button {
     margin: 0 0 7px 0;
   }
 }
 
 @media (max-width: 1024px) {
-  .registrarion-input {
+  .registration-input {
     background-color: #e5e5e5;
     padding: 7px 0 0 0;
   }
@@ -1349,7 +1391,7 @@ body {
   font-weight: 700;
 }
 
-hr {
+.card__checkout-hr {
   color: #222222;
   width: 100%;
   margin: 21px 0 17px 0;

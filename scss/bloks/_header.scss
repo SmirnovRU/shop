@@ -44,6 +44,7 @@
 
   .header__icon {
     fill: $light-silver;
+    transition: fill 0.2s linear;
   }
 
   .header__icon:hover {
