@@ -98,8 +98,14 @@ body {
 }
 
 .header .header__menu {
-  display: none;
+  position: absolute;
   background-color: #ffffff;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  -webkit-transform: translate(700px, 343px);
+          transform: translate(700px, 343px);
 }
 
 .header .header__menu-icon {
@@ -122,8 +128,8 @@ body {
 
 .header .header__icon {
   fill: #e8e8e8;
-  -webkit-transition: fill 0.2s linear;
-  transition: fill 0.2s linear;
+  -webkit-transition: fill 0.1s linear;
+  transition: fill 0.1s linear;
 }
 
 .header .header__icon:hover {
@@ -151,7 +157,8 @@ body {
 .header .header__dropdown:hover .header__menu {
   display: block;
   position: absolute;
-  top: 75px;
+  -webkit-transform: translate(0px, 420px);
+          transform: translate(0px, 420px);
   width: 232px;
   height: 765px;
   -webkit-box-shadow: 20px #6f6e6e;
@@ -813,6 +820,8 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: #ffffff;
+  -webkit-transition: outline 0.1s, color 0.2s linear, background-color 0.2s ease-in, border 0.1s;
+  transition: outline 0.1s, color 0.2s linear, background-color 0.2s ease-in, border 0.1s;
 }
 
 .footer-info .footer-info__button:hover {
@@ -1034,6 +1043,8 @@ body {
   border: none;
   padding: 16px 29px;
   margin: 0 0 96px 0;
+  -webkit-transition: fill 0.2s ease-in, background-color 0.3s ease-in, outline 0.1s;
+  transition: fill 0.2s ease-in, background-color 0.3s ease-in, outline 0.1s;
 }
 
 .registration-input .registration-input__button-img {
@@ -1344,6 +1355,16 @@ body {
   line-height: 13px;
   background-color: #ffffff;
   border: 1px solid #a4a4a4;
+  -webkit-transition: background-color 0.2s linear, color 0.1s;
+  transition: background-color 0.2s linear, color 0.1s;
+}
+
+.card__shiping-button:hover {
+  background-color: #3a3838db;
+}
+
+.card__shiping-button:active {
+  color: #ffffff;
 }
 
 .card__shopping-button {
@@ -1355,6 +1376,16 @@ body {
   background-color: #ffffff;
   border: 1px solid #a4a4a4;
   color: #222222;
+  -webkit-transition: background-color 0.2s ease-in, color 0.1s;
+  transition: background-color 0.2s ease-in, color 0.1s;
+}
+
+.card__shopping-button:hover {
+  background-color: #3a3838db;
+}
+
+.card__shopping-button:active {
+  color: #ffffff;
 }
 
 .card__checkout {
@@ -1408,6 +1439,18 @@ body {
   line-height: 19px;
   font-weight: 300;
   border: none;
+  -webkit-transition: background-color 0.2s linear, color 0.2s ease-in, border 0.1s;
+  transition: background-color 0.2s linear, color 0.2s ease-in, border 0.1s;
+}
+
+.card__chekout-button:hover {
+  background-color: #ffffff;
+  color: #f16d7f;
+  border: 1px solid #f16d7f;
+}
+
+.card__chekout-button:active {
+  background-color: #3a3838db;
 }
 
 .card__margin-top {
@@ -1461,6 +1504,20 @@ body {
   font-weight: 300;
   font-style: normal;
   text-transform: uppercase;
+  -webkit-transition: cursor 0.1s ease-in, font-weight 0.1s, -webkit-text-decoration 0.1s linear;
+  transition: cursor 0.1s ease-in, font-weight 0.1s, -webkit-text-decoration 0.1s linear;
+  transition: text-decoration 0.1s linear, cursor 0.1s ease-in, font-weight 0.1s;
+  transition: text-decoration 0.1s linear, cursor 0.1s ease-in, font-weight 0.1s, -webkit-text-decoration 0.1s linear;
+}
+
+.product-shop .product-shop__item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.product-shop .product-shop__item:active {
+  text-decoration: none;
 }
 
 .product-shop .product-shop__item-pink {
@@ -1573,6 +1630,24 @@ hr {
           align-items: center;
   border: 1px solid #f16d7f;
   padding: 14px 60px;
+  -webkit-transition: background-color 0.1s linear, color 0.2s, fill 0.2s;
+  transition: background-color 0.1s linear, color 0.2s, fill 0.2s;
+}
+
+.product-shop__button:hover {
+  background-color: #f16d7f;
+}
+
+.product-shop__button:active {
+  background-color: #6f6e6e;
+}
+
+.product-shop__button:hover .product-shop__button-title {
+  color: #ffffff;
+}
+
+.product-shop__button:hover .product-shop__basket {
+  fill: #ffffff;
 }
 
 .product-shop__button-title {

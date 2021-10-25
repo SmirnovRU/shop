@@ -127,6 +127,15 @@
   line-height: 13px;
   background-color: $white;
   border: 1px solid $dark-grey;
+  transition: background-color 0.2s linear, color 0.1s;
+}
+
+.card__shiping-button:hover {
+  background-color: $gray-gray;
+}
+
+.card__shiping-button:active {
+  color: $white;
 }
 
 .card__shopping-button {
@@ -138,6 +147,15 @@
   background-color: $white;
   border: 1px solid $dark-grey;
   color: $black;
+  transition: background-color 0.2s ease-in, color 0.1s;
+}
+
+.card__shopping-button:hover {
+  background-color: $gray-gray;
+}
+
+.card__shopping-button:active {
+  color: $white;
 }
 
 .card__checkout {
@@ -184,6 +202,17 @@
   line-height: 19px;
   font-weight: 300;
   border: none;
+  transition: background-color 0.2s linear, color 0.2s ease-in, border 0.1s;
+}
+
+.card__chekout-button:hover {
+  background-color: $white;
+  color: $dark-pink;
+  border: 1px solid $dark-pink;
+}
+
+.card__chekout-button:active {
+  background-color: $gray-gray;
 }
 
 .card__margin-top {

@@ -58,6 +58,7 @@
     border: none;
     padding: 16px 29px;
     margin: 0 0 96px 0;
+    transition: fill 0.2s ease-in, background-color 0.3s ease-in, outline 0.1s;
   }
 
   .registration-input__button-img {

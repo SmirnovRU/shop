@@ -24,6 +24,18 @@
   .product-shop__item {
     @include font(14px, 17px, 300);
     text-transform: uppercase;
+    transition: text-decoration 0.1s linear, cursor 0.1s ease-in,
+      font-weight 0.1s;
+  }
+
+  .product-shop__item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  .product-shop__item:active {
+    text-decoration: none;
   }
 
   .product-shop__item-pink {
@@ -109,6 +121,23 @@ hr {
   align-items: center;
   border: 1px solid $dark-pink;
   padding: 14px 60px;
+  transition: background-color 0.1s linear, color 0.2s, fill 0.2s;
+}
+
+.product-shop__button:hover {
+  background-color: $dark-pink;
+}
+
+.product-shop__button:active {
+  background-color: $silver;
+}
+
+.product-shop__button:hover .product-shop__button-title {
+  color: $white;
+}
+
+.product-shop__button:hover .product-shop__basket {
+  fill: $white;
 }
 
 .product-shop__button-title {
