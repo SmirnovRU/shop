@@ -1,4 +1,4 @@
-.registrarion-input {
+.registration-input {
   background-color: $lavender;
   padding: 31px 0 0 0;
 
@@ -58,6 +58,7 @@
     border: none;
     padding: 16px 29px;
     margin: 0 0 96px 0;
+    transition: fill 0.2s ease-in, background-color 0.3s ease-in, outline 0.1s;
   }
 
   .registration-input__button-img {
@@ -130,7 +131,7 @@
 }
 
 @media (max-width: 1024px) {
-  .registrarion-input {
+  .registration-input {
     background-color: $lavender;
     padding: 7px 0 0 0;
   }
