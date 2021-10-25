@@ -20,8 +20,10 @@
   }
 
   .header__menu {
-    display: none;
+    position: absolute;
     background-color: $white;
+    transition: transform 0.3s;
+    transform: translate(700px, 343px);
   }
 
   .header__menu-icon {
@@ -44,6 +46,7 @@
 
   .header__icon {
     fill: $light-silver;
+    transition: fill 0.1s linear;
   }
 
   .header__icon:hover {
@@ -52,10 +55,6 @@
 
   .header__icon:active {
     fill: $snow;
-  }
-
-  .header__logo {
-    padding: 0 41px 0 0;
   }
 
   .header__dropdown {
@@ -67,7 +66,7 @@
   .header__dropdown:hover .header__menu {
     display: block;
     position: absolute;
-    top: 75px;
+    transform: translate(00px, 420px);
     width: 232px;
     height: 765px;
     box-shadow: 20px $silver;
@@ -81,6 +80,7 @@
   .header__search {
     background: transparent;
     border: none;
+    margin: 0 0 0 41px;
   }
 
   .header__search-img {

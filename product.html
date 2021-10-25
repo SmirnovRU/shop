@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Document</title>
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <svg style="display:none;" xmlns="http://www.w3.org/2000/svg">
         <symbol id="icon-loope">
             <path d="M19.0596 17.6259C20.6713 15.8658 21.6282 13.6048 21.7698 11.2225C21.9113 8.84018 21.2288 6.48173 19.8369 4.54318C18.445 2.60463 16.4285 1.20404 14.126 0.576619C11.8234 -0.0508009 9.3751 0.13316 7.19217 1.09761C5.00923 2.06205 3.22463 3.74825 2.13804 5.87302C1.05145 7.9978 0.729054 10.4318 1.225 12.7661C1.72094 15.1005 3.00501 17.1932 4.86158 18.6927C6.71814 20.1922 9.03413 21.0072 11.4206 21.0009C13.673 21.004 15.8645 20.27 17.6606 18.9109L25.4086 26.7179C25.4941 26.807 25.5965 26.8781 25.7099 26.927C25.8232 26.9759 25.9452 27.0017 26.0686 27.0029C26.1923 27.0033 26.3148 26.9782 26.4283 26.9292C26.5419 26.8801 26.6441 26.8082 26.7286 26.7179C26.9025 26.537 26.9997 26.2958 26.9997 26.0449C26.9997 25.794 26.9025 25.5528 26.7286 25.3719L19.0596 17.6259ZM2.88662 10.5009C2.89946 8.81563 3.41094 7.17187 4.35659 5.77685C5.30224 4.38183 6.63972 3.29801 8.20044 2.662C9.76115 2.02599 11.4752 1.86627 13.1266 2.20298C14.7779 2.53969 16.2926 3.35775 17.4797 4.55404C18.6668 5.75033 19.4732 7.27129 19.7972 8.92519C20.1212 10.5791 19.9483 12.2919 19.3002 13.8476C18.6522 15.4034 17.5581 16.7325 16.1559 17.6674C14.7536 18.6023 13.1059 19.1011 11.4206 19.1009C9.14916 19.0901 6.97482 18.1784 5.37484 16.566C3.77486 14.9537 2.87998 12.7724 2.88662 10.5009Z"/>
@@ -38,13 +40,17 @@
         </symbol>
         <symbol id="icon-twiter">
             <path d="M31.6636 0H0.213013V32H31.6636V0Z"/>
-            <path fill="currentColor" d="M22.4181 12.7411C22.4281 12.8832 22.4281 13.0253 22.4281 13.1675C22.4281 17.5025 19.1509 22.4974 13.161 22.4974C11.3156 22.4974 9.60132 21.9593 8.1593 21.0253C8.42149 21.0558 8.67357 21.0659 8.94585 21.0659C10.4685 21.0659 11.8702 20.5482 12.9895 19.6649C11.5576 19.6345 10.3576 18.6903 9.94415 17.3908C10.1458 17.4213 10.3475 17.4416 10.5593 17.4416C10.8517 17.4416 11.1442 17.4009 11.4164 17.3299C9.92401 17.0253 8.80465 15.7055 8.80465 14.1116V14.071C9.23825 14.3147 9.74249 14.467 10.2769 14.4873C9.39959 13.8984 8.82483 12.8933 8.82483 11.7563C8.82483 11.1472 8.98614 10.5888 9.26851 10.1015C10.8719 12.0913 13.282 13.3908 15.9844 13.5329C15.934 13.2893 15.9038 13.0355 15.9038 12.7817C15.9038 10.9746 17.3559 9.5025 19.1609 9.5025C20.0987 9.5025 20.9457 9.89844 21.5407 10.538C22.2768 10.3959 22.9827 10.1218 23.6079 9.74616C23.3659 10.5076 22.8516 11.1472 22.176 11.5533C22.8315 11.4822 23.4668 11.2994 24.0516 11.0457C23.608 11.6954 23.0533 12.274 22.4181 12.7411Z"/>
+            <path fill="currentColor" d="M22.4181 12.7411C22.4281 12.8832 22.4281 13.0253 22.4281 13.1675C22.4281 17.5025 19.1509 22.4974 13.161 22.4974C11.3156 22.4974 9.60132 21.9593 8.1593 21.0253C8.42149 21.0558 8.67357 21.0659 8.94585 21.0659C10.4685 21.0659 11.8702 20.5482 12.9895 19.6649C11.5576 19.6345 10.3576 18.6903 9.94415 17.3908C10.1458 17.4213 10.3475 17.4416 10.5593 17.4416C10.8517 17.4416 11.1442 17.4009 11.4164 17.3299C9.92401 17.0253 8.80465 15.7055 8.80465 14.1116V14.071C9.23825 14.3147 9.74249 14.467 10.2769 14.4873C9.39959 13.8984 8.82483 12.8933 8.82483 11.7563C8.82483 11.1472 8.98614 10.5888 9.26851 10.1015C10.8719 12.0913 13.282 13.3908 15.9844 13.5329C15.934 13.2893 15.9038 13.0355 15.9038 12.7817C15.9038 10.9746 17.3559 9.5025 19.1609 9.5025C20.0987 9.5025 20.9457 9.89844 21.5407 10.538C22.2768 10.3959 22.9827 10.1218 23.6079 9.74616C23.3659 10.5076 22.8516 11.1472 22.176 11.5533C22.8315 11.4822 23.4668 11.2994 24.0516 11.0457C23.608 11.6954 23.0533 12.274 22.4181 12.7411Z" fill="black"/>
+        </symbol>
+        <symbol id="icon-registration__btn">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.54 0.208095C11.6058 0.142131 11.684 0.0897967 11.77 0.0540883C11.8561 0.01838 11.9483 0 12.0415 0C12.1347 0 12.2269 0.01838 12.313 0.0540883C12.399 0.0897967 12.4772 0.142131 12.543 0.208095L16.7929 4.458C16.8589 4.5238 16.9112 4.60196 16.9469 4.68802C16.9826 4.77407 17.001 4.86632 17.001 4.95949C17.001 5.05266 16.9826 5.14491 16.9469 5.23097C16.9112 5.31702 16.8589 5.39518 16.7929 5.46098L12.543 9.71089C12.41 9.84389 12.2296 9.91861 12.0415 9.91861C11.8534 9.91861 11.673 9.84389 11.54 9.71089C11.407 9.57788 11.3323 9.39749 11.3323 9.2094C11.3323 9.0213 11.407 8.84091 11.54 8.70791L15.2898 4.95949L11.54 1.21107C11.474 1.14528 11.4217 1.06711 11.386 0.981059C11.3503 0.895005 11.3319 0.802752 11.3319 0.709584C11.3319 0.616415 11.3503 0.524162 11.386 0.438109C11.4217 0.352055 11.474 0.273891 11.54 0.208095Z"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 4.95948C0 4.77162 0.0746263 4.59146 0.207462 4.45862C0.340297 4.32579 0.52046 4.25116 0.708318 4.25116H15.583C15.7708 4.25116 15.951 4.32579 16.0838 4.45862C16.2167 4.59146 16.2913 4.77162 16.2913 4.95948C16.2913 5.14734 16.2167 5.3275 16.0838 5.46033C15.951 5.59317 15.7708 5.6678 15.583 5.6678H0.708318C0.52046 5.6678 0.340297 5.59317 0.207462 5.46033C0.0746263 5.3275 0 5.14734 0 4.95948Z"/>
         </symbol>
         <symbol id="icon-header_menu-button">
             <path d="M7.4158 6.00409L11.7158 1.71409C11.9041 1.52579 12.0099 1.27039 12.0099 1.00409C12.0099 0.73779 11.9041 0.482395 11.7158 0.294092C11.5275 0.105788 11.2721 0 11.0058 0C10.7395 0 10.4841 0.105788 10.2958 0.294092L6.0058 4.59409L1.7158 0.294092C1.52749 0.105788 1.2721 -1.9841e-09 1.0058 0C0.739497 1.9841e-09 0.484102 0.105788 0.295798 0.294092C0.107495 0.482395 0.0017066 0.73779 0.0017066 1.00409C0.0017066 1.27039 0.107495 1.52579 0.295798 1.71409L4.5958 6.00409L0.295798 10.2941C0.20207 10.3871 0.127676 10.4977 0.0769072 10.6195C0.0261385 10.7414 0 10.8721 0 11.0041C0 11.1361 0.0261385 11.2668 0.0769072 11.3887C0.127676 11.5105 0.20207 11.6211 0.295798 11.7141C0.388761 11.8078 0.499362 11.8822 0.621222 11.933C0.743081 11.9838 0.873786 12.0099 1.0058 12.0099C1.13781 12.0099 1.26852 11.9838 1.39038 11.933C1.51223 11.8822 1.62284 11.8078 1.7158 11.7141L6.0058 7.41409L10.2958 11.7141C10.3888 11.8078 10.4994 11.8822 10.6212 11.933C10.7431 11.9838 10.8738 12.0099 11.0058 12.0099C11.1378 12.0099 11.2685 11.9838 11.3904 11.933C11.5122 11.8822 11.6228 11.8078 11.7158 11.7141C11.8095 11.6211 11.8839 11.5105 11.9347 11.3887C11.9855 11.2668 12.0116 11.1361 12.0116 11.0041C12.0116 10.8721 11.9855 10.7414 11.9347 10.6195C11.8839 10.4977 11.8095 10.3871 11.7158 10.2941L7.4158 6.00409Z"/>
         </symbol>
+
     </svg>
-    
     <header class="header">
         <div class="container header__container">
             <div class="header__box">
@@ -114,165 +120,96 @@
                         <use href="#icon-basket"></use>
                     </svg>
                 </a>
-            </div>
-            
+            </div>   
         </div>
     </header>
     <main>
-        <section class="person">
-            <img class="person__img" src="img/person.jpg" alt="person" width="800" height="765">
-            <div class="person__wrp">
-                <h1 class="person__title">the brand <span class="person__subtitle">of luxerious <span class="person__pink">fashion</span></span></h1>
+        <section class="product-shop">
+            <div class="container product-shop__container">
+                <h1 class="product-shop__title">new arrivals</h1>
+                <ul class="product-shop__list">
+                    <li class="product-shop__item">home</li>
+                    <li class="product-shop__item-slash">/</li>
+                    <li class="product-shop__item">men</li>
+                    <li class="product-shop__item-slash">/</li>
+                    <li class="product-shop__item product-shop__item-pink">new arrivals</li>
+                </ul>
             </div>
         </section>
-        <section class="sale">
-            <div class="container">
-                <h2 class="sale__title visually-hidden">sale</h2>
-                <ul class="sale__list">
-                    <div class="sale__box">
-                        <li class="sale__item sale__link-women">
-                            <a class="sale__link" href="#">
-                                <p class="sale__text">30% off</p>
-                                <h3 class="sale__subtitle">for women</h3>
-                            </a>
-                        </li>
-                        <li class="sale__item sale__link-men">
-                            <a  class="sale__link" href="#">
-                                <p class="sale__text">hot deal</p>
-                                <h3 class="sale__subtitle">for men</h3>
-                            </a>
-                        </li>
-                        <li class="sale__item sale__link-kids">
-                            <a  class="sale__link" href="#">
-                                <p class="sale__text">new arrivals</p>
-                                <h3 class="sale__subtitle">for kids</h3>
-                            </a>
-                        </li>
+        <section class="product-shop__carousel">
+            <div class="container-xl col-xl-3">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/fetured_items1.jpg" class="d-block w-100" alt="items_men">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/fetured_items2.jpg" class="d-block w-100" alt="items_woman">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/fetured_items3.jpg" class="d-block w-100" alt="items__man">
+                      </div>
                     </div>
-                    <li class="sale__item sale__link-accesories">
-                        <a  class="sale__link" href="#">
-                            <p class="sale__text">luxirous & trendy</p>
-                            <h3 class="sale__subtitle">accesories</h3>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="fetured-items">
-            <div class="container">
-                <h2 class="fetured-items__title">Fetured Items</h2>
-                <p class="fetured-items__text">Shop for items based on what we featured in this week</p>
-                <ul class="fetured-items__list">
-                    <li class="fetured-items__items">
-                        <a class="fetured-items__link" href="#">
-                            <div class="fetured-items__dropbox">
-                                <button type="button" class="fetured-items__dropbox-button">
-                                    <img  class="fetured-items__dropbox-img" src="img/fetured-items__buttons.svg" alt="button" width="26" height="24">
-                                    <div class="fetured-items__dropbox-title">Add to Cart</div>
-                                </button>
-                            </div>
-                            <img class="fetured-items__img" src="img/fetured_items1.jpg" alt="fetured_items">
-                            <h3 class="fetured-items__subtitle">ellery x m'o capsule</h3>
-                            <p class="fetured-items__tagline">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                            <p class="fetured-items__price">$52.00</p>
-                        </a>
-                    </li>
-                    <li class="fetured-items__items">
-                        <a class="fetured-items__link" href="#">
-                            <div class="fetured-items__dropbox">
-                                <button type="button" class="fetured-items__dropbox-button">
-                                    <img  class="fetured-items__dropbox-img" src="img/fetured-items__buttons.svg" alt="button" width="26" height="24">
-                                    <div class="fetured-items__dropbox-title">Add to Cart</div>
-                                </button>
-                            </div>
-                            <img class="fetured-items__img" src="img/fetured_items2.jpg" alt="fetured_items">
-                            <h3 class="fetured-items__subtitle">ellery x m'o capsule</h3>
-                            <p class="fetured-items__tagline">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                            <p class="fetured-items__price">$52.00</p>
-                        </a>
-                    </li>
-                    <li class="fetured-items__items">
-                        <a class="fetured-items__link" href="#">
-                            <div class="fetured-items__dropbox">
-                                <button type="button" class="fetured-items__dropbox-button">
-                                    <img  class="fetured-items__dropbox-img" src="img/fetured-items__buttons.svg" alt="button" width="26" height="24">
-                                    <div class="fetured-items__dropbox-title">Add to Cart</div>
-                                </button>
-                            </div>
-                            <img class="fetured-items__img" src="img/fetured_items3.jpg" alt="fetured_items">
-                            <h3 class="fetured-items__subtitle">ellery x m'o capsule</h3>
-                            <p class="fetured-items__tagline">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                            <p class="fetured-items__price">$52.00</p>
-                        </a>
-                    </li>
-                    <li class="fetured-items__items">
-                        <a class="fetured-items__link" href="#">
-                            <div class="fetured-items__dropbox">
-                                <button type="button" class="fetured-items__dropbox-button">
-                                    <img  class="fetured-items__dropbox-img" src="img/fetured-items__buttons.svg" alt="button" width="26" height="24">
-                                    <div class="fetured-items__dropbox-title">Add to Cart</div>
-                                </button>
-                            </div>
-                            <img class="fetured-items__img" src="img/fetured_items4.jpg" alt="fetured_items">
-                            <h3 class="fetured-items__subtitle">ellery x m'o capsule</h3>
-                            <p class="fetured-items__tagline">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                            <p class="fetured-items__price">$52.00</p>
-                        </a>
-                    </li>
-                    <li class="fetured-items__items">
-                        <a class="fetured-items__link" href="#">
-                            <div class="fetured-items__dropbox">
-                                <button type="button" class="fetured-items__dropbox-button">
-                                    <img  class="fetured-items__dropbox-img" src="img/fetured-items__buttons.svg" alt="button" width="26" height="24">
-                                    <div class="fetured-items__dropbox-title">Add to Cart</div>
-                                </button>
-                            </div>
-                            <img class="fetured-items__img" src="img/fetured_items5.jpg" alt="fetured_items">
-                            <h3 class="fetured-items__subtitle">ellery x m'o capsule</h3>
-                            <p class="fetured-items__tagline">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                            <p class="fetured-items__price">$52.00</p>
-                        </a>
-                    </li>
-                    <li class="fetured-items__items">
-                        <a class="fetured-items__link" href="#">
-                            <div class="fetured-items__dropbox">
-                                <button type="button" class="fetured-items__dropbox-button">
-                                    <img  class="fetured-items__dropbox-img" src="img/fetured-items__buttons.svg" alt="button" width="26" height="24">
-                                    <div class="fetured-items__dropbox-title">Add to Cart</div>
-                                </button>
-                            </div>
-                            <img class="fetured-items__img" src="img/fetured_items6.jpg" alt="fetured_items">
-                            <h3 class="fetured-items__subtitle">ellery x m'o capsule</h3>
-                            <p class="fetured-items__tagline">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                            <p class="fetured-items__price">$52.00</p>
-                        </a>
-                    </li>
-                </ul>
-                <div class="fetured-items__box">
-                    <button class="fetured-items__button" type="button">Browse All Product</button>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon btn-outline-primary" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon btn-outline-primary" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
+
         </section>
-        <section class="products">
-            <div class="container">
-                <h2 class="products__title visually-hidden">products info</h2>
-                <ul class="products__list">
-                    <li class="products__item">
-                        <img class="products__img" src="img/delivery.svg" alt="delivery">
-                        <h3 class="products__subtitle">Free Delivery</h3>
-                        <p class="products__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-                    </li>
-                    <li class="products__item">
-                        <img class="products__img" src="img/sale.svg" alt="sale">
-                        <h3 class="products__subtitle">Sales & discounts</h3>
-                        <p class="products__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-                    </li>
-                    <li class="products__item">
-                        <img class="products__img" src="img/quality.svg" alt="quality">
-                        <h3 class="products__subtitle">Quality assurance</h3>
-                        <p class="products__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-                    </li>
+        <section class="product-shop__collection">
+           <div class="container product-shop__flex">
+                <h2 class="product-shop__title">women collection</h2>
+                <h3 class="product-shop__subtitle">moschino cheap and chic</h3>
+                <p class="product-shop__text">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </p>
+                <p class="product-shop__price">$561</p>
+                <hr>
+                <ul class="product-shop__product-list">
+                    <li class="product-shop__product-item">choose color</li>
+                    <li class="product-shop__product-item product-shop__product-margin">choose size</li>
+                    <li class="product-shop__product-item">quantity</li>
                 </ul>
+                <button type="button" class="product-shop__button">
+                    <svg class="product-shop__basket" width="32" height="29">
+                        <use href="#icon-basket"></use>>
+                    </svg>
+                    <div class="product-shop__button-title">Add to Cart</div>
+                </button>
+           </div>
+        </section>
+        <section class="product-shop__gallery">
+            <div class="container">
+                <h2 class="product-shop__gallery-title visually-hidden">product gallery</h2>
+                <ul class="product-shop__gallery-list">
+                    <li class="product-shop__gallery-items">
+                        <a class="product-shop__gallery-link" href="#">
+                            <img class="product-shop__gallery-img" src="img/fetured_items1.jpg" alt="fetured_items">
+                            <h3 class="product-shop__gallery-subtitle">ellery x m'o capsule</h3>
+                            <p class="product-shop__gallery-tagline">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                            <p class="product-shop__gallery-price">$52.00</p>
+                        </a>
+                    </li>
+                    <li class="product-shop__gallery-items">
+                        <a class="product-shop__gallery-link" href="#">
+                            <img class="product-shop__gallery-img" src="img/fetured_items2.jpg" alt="fetured_items">
+                            <h3 class="product-shop__gallery-subtitle">ellery x m'o capsule</h3>
+                            <p class="product-shop__gallery-tagline">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                            <p class="product-shop__gallery-price">$52.00</p>
+                        </a>
+                    </li>
+                    <li class="product-shop__gallery-items">
+                        <a class="product-shop__gallery-link" href="#">
+                            <img class="product-shop__gallery-img" src="img/fetured_items3.jpg" alt="fetured_items">
+                            <h3 class="product-shop__gallery-subtitle">ellery x m'o capsule</h3>
+                            <p class="product-shop__gallery-tagline">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                            <p class="product-shop__gallery-price">$52.00</p>
+                        </a>
+                    </li>
             </div>
         </section>
     </main>
